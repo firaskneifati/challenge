@@ -1,0 +1,14 @@
+{
+  "name": "empolyees",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "watch": "sass --style=expanded --watch scss/employee.scss css/employee.css",
+    "build": "sass --no-source-map --style=compressed scss/employee.scss css/employee.css"
+  },
+  "author": "Firas Kneifati",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.4"
+  }
+}
